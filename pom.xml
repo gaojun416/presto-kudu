@@ -23,7 +23,7 @@
   <artifactId>presto-kudu</artifactId>
   <name>Kudu Connector for Presto</name>
   <version>0.208.2</version>
-  <packaging>presto-plugin</packaging>
+  <!--<packaging>presto-plugin</packaging>-->
 
   <properties>
     <presto.version>0.208</presto.version>
@@ -217,12 +217,12 @@
           </configuration>
         </plugin>
 
-        <plugin>
-          <groupId>com.facebook.presto</groupId>
-          <artifactId>presto-maven-plugin</artifactId>
-          <version>0.3</version>
-          <extensions>true</extensions>
-        </plugin>
+        <!--<plugin>-->
+          <!--<groupId>com.facebook.presto</groupId>-->
+          <!--<artifactId>presto-maven-plugin</artifactId>-->
+          <!--<version>0.3</version>-->
+          <!--<extensions>true</extensions>-->
+        <!--</plugin>-->
 
         <plugin>
           <groupId>pl.project13.maven</groupId>
